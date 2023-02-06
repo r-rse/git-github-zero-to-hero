@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Git & Github through GitKraken Client - From Zero to Hero!"
-description = "Materials for RSE Sheffield workshop on 'Git & Github through GitKraken Client - From Zero to Hero! '"
+description = "Materials for R-RSE workshop on 'Git & Github through GitKraken Client - From Zero to Hero! '"
 pygmentsUseClasses=true
 enableEmoji = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "index\\.html", '\.knit\.md$', '\.utf8\.md$']
@@ -30,7 +30,7 @@ languageName = "English"
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
 identifier = "ds"
-url = "https://github.com/RSE-Sheffield/git-github-zero-to-hero"
+url = "https://github.com/r-rse/git-github-zero-to-hero"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
@@ -54,9 +54,9 @@ url = "https://creativecommons.org/licenses/by/4.0/"
 weight = 50
 
 [params]
-  editURL = "https://github.com/RSE-Sheffield/git-github-zero-to-hero/edit/master/content/"
+  editURL = "https://github.com/r-rse/git-github-zero-to-hero/edit/master/content/"
   description = "Git & Github through GitKraken Client - From Zero to Hero!"
-  author = "Anna Krystalli, Sheffield RSE"
+  author = "Anna Krystalli, R-RSE"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
