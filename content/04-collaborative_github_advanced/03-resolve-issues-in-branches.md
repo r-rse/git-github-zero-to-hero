@@ -66,8 +66,8 @@ The **special `-[ ]` list notation** means the **checkboxes will be interactive*
 
 When we're creating our issue, the main body contains two tabs:
 
-- **Write:** were you enter the contents of the issue in markdown
-- **Preview:** were you can preview what the content will look like when it is rendered once the issue is submited. 
+- **Write:** where you enter the contents of the issue in markdown
+- **Preview:** where you can preview what the content will look like when it is rendered once the issue is submitted. 
 
 Toggle the tabs below to explore this feature. Note how the checklist is rendered in the Preview tab.
 
