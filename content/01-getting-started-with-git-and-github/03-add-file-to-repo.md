@@ -3,42 +3,72 @@ title: Add a file to the repo
 weight: 4
 ---
 
-Okay! Now we need to do something with the repository. Let's start with a basic use-case and make a single file that lists some to-do items. The repository is just a normal folder on your computer where you can create and edit files like normal.
+Okay! Now we need to do something with the repository. Let's start with a basic use-case and make a single file where we will list some to-do items. The repository is just a normal folder on your computer where you can create and edit files like normal.
 
-- Open the folder (repo) you have just created. In GitKraken Client, you can do this by going to `File > Open in File Manager`. 
 
-	<img src="/images/work-1-gk.png" alt="title picture" width="700px">
+## Create new file
+
+To create a new file in GitKraken Client, we can **use the Command Palette**.
+
+To initiate the Command Palette, hit <img src="/images/command-symbol.png" width="2px" style="align:left; display:inline; margin:0;"/> **| Ctrl + P**, type **Create File**, and hit Enter. _You can also right click the empty space in the commit panel and click the Create File context menu option._
+
+<img src="/images/work-1-gk.png" alt="title picture" width="700px">
+
+
+Type the desired filename/filepath and hit Enter. Let's create a simple text file called `TODO.txt` in the root of our repository.
+
+<img src="/images/work-2-gk.png" alt="title picture" width="700px">
+
+
+
+You should now see the new file you added, opened for editing. It will also show up in the right hand panel. `git` has detected a new file in our repository which it’s not currently tracking. GitKraken Client let’s us know about it by listing it under the **Unstaged Files** with a green **+** indicating it’s a completely new file.
+
+> __Unstaged Files:__ The unstaged files panel shows you an overview of all uncommited local changes to your repository since the last commit. You can also see the detailed changes to each file by just clicking on it. You have the option to **stage** all the changes or some of them. Staging is essentially a commit preparation process.
+
+<img src="/images/work-3-gk.png" alt="title picture" width="700px">
 
 <br>
 
-- Now create a file in this folder. Open your favourite text editor and use to create a new *TODO.txt* file.
+## Commit `TODO.txt`
 
-	<img src="/images/work-2-gk.png" alt="title picture" width="700px">
+Now it's time to **commit** our file. This will effectively create a *save point* in our repository's history that we can come back to at any time. Aim to do this whenever you've done a small, complete chunk of work. 
 
-<br>
+GitKraken Client provides an easy to use interface for this job. First, click on **Stage File** in the file editing panel. Alternatively you could click on the **Stage all changes** button to stage all unstaged files in one go.
 
-- Hop over to GitKraken Client again. You should see the new file you added! 
+<img src="/images/work-4a-gk.png" alt="title picture" width="700px">
 
-	<img src="/images/work-3-gk.png" alt="title picture" width="700px">
+This moves the `TODO.txt` file to the **Staged Files** panel.
 
-<br>
+>  __Staged Files:__ Changes to files or folders which we select to be included in a commit are be moved to this area.
 
-- Now it's time to **commit** you work. This is creating a *save point* you can come back to at any time. Aim to do this whenever you've done a small, complete chunk of work. GitKraken Client provides an easy to use interface for this job:
+Next we wan't to add a concise yet descriptive commit message.
 
-    - __Unstaged Files:__ Here you have a view of all the local changes of your repository. You can also see the changes done to each file by just clicking on it. You have the option to **stage** all the changes or some of them. Staging is essentially a commit preparation process.
+> __Commit Message:__ Commit messages are extremely important for identifying the contents of individual commits and make the difference in how much effort is required, by you or others, to identify a specific change, especially if a long time has passed since the change was made. well. An optional description filed allows you to add more detail on what was done and why.
+
+<img src="/images/work-4b-gk.png" alt="title picture" width="700px">
+
+Finally, we can commit our changes by clicking on **Commit changes to 1 file**.
     
-    - __Staged Files:__ All files or folders which are selected to be committed will be moved in this area.
-    
-    - __Commit Message:__ Commit creates a save point and every save point should have a title as well as a small description so we know what was done and why. Remember some projects last for years and many other projects will spawn in the meantime. So when we revisit an old  repository or we want to go back in time to find a specific change we should be able to do that with minimum effort!
-    
-    - __Commit changes to n files:__ Pressing this button will commit our changes *to our local repository*.
+> __Commit changes to n files:__ Pressing this button will commit our changes *to our local repository*.
 
-	<img src="/images/work-4-gk.png" alt="title picture" width="700px">
+A new commit now appears in our commit history:
+
+
+<img src="/images/work-4c-gk.png" alt="title picture" width="700px">
+
+
+
 <br>
 
-- 	Now that we have commited our changes locally we can **push** them up to the remote repository. This is done by pressing the **Push** button on the top of GitKraken Client navigation bar.
+## Push changes to remote
 
-	<img src="/images/work-5-gk.png" alt="title picture" width="700px">	
+The commit we just made only exists in our local repository. Our remote repository is still one commit behind.
+
+To synchronise our remote repository with our local one, we need to **push** our local changes up to the remote. 
+
+We do this by clicking the **Push** button on the top of GitKraken Client navigation bar.
+
+<img src="/images/work-5-gk.png" alt="title picture" width="700px">	
 
 <br>
 
