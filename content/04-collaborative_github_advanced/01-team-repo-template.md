@@ -26,7 +26,7 @@ For this chapter, we're going to be **working in groups of 3-4 participants**. I
 
 ## Complete team details
 
-Once you have decide on a team repo owner, please copy the template provided in the course [collaborative notepad](https://docs.google.com/document/d/1-CkHO417wtfJZ35X4q5tk_hcgP9W3mfEG5AsN2SIU1A/edit?usp=sharing) and complete your team's details
+Once you have decide on a team repo owner, please copy the template provided in the course [collaborative notepad](https://docs.google.com/document/d/17gfHEA0km-y5hTAAnuBQ4OYFnfO3eQPbcU3rsOfVvE0/edit?usp=sharing) and complete your team's details
 
 #### Template
 
@@ -37,13 +37,14 @@ Once you have decide on a team repo owner, please copy the template provided in 
 
 ## <i class="fas fa-user-circle"></i> Make a copy of project template
 
-The project we will be working with and contributing to will be based on the repo: https://github.com/RSE-Sheffield/python-calculator
+The project we will be working with and contributing to will be based on the repo: 
+#### **https://github.com/r-rse/python-calculator**
 
 This is slightly different than the previous repository we worked with in that it has been set up as a template. As such we don't fork the repository. Instead we make a copy of the template.
 
 The **project owner of each team will make a copy of the template** and the rest of the team will **contribute to their own team copy of the repository**.
 
-To make a copy, first click on the {{% button href="https://github.com/RSE-Sheffield/python-calculator/generate" %}}**Use this template** {{% /button %}} button
+To make a copy, first click on the {{% button href="https://github.com/r-rse/python-calculator/generate" %}}**Use this template** {{% /button %}} button
 
 {{< figure src="/images/ag-use-tmpl.png" >}}
 

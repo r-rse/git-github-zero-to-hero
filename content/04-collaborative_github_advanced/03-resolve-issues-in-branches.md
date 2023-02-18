@@ -48,7 +48,7 @@ Click {{% button href="" %}} **New issue** {{% /button %}}
 
 {{< figure src="/images/ag-issue-init.png" >}}
 
-Because we are using GitHub Issue templates, we are immediatelly presented with the 3 issue templates I've created. 
+Because we are using GitHub Issue templates, we are immediately presented with the 3 issue templates I've created. 
 
 To demonstrate, I'm going to open the **Add subtraction function** issue. To initiate the process, I click on {{% button href="" %}} **Get started** {{% /button %}} next to the issue template I want  to open.
 
