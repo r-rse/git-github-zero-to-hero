@@ -18,15 +18,15 @@ GitKraken Client makes it really simple.
 
 On the left side menu bar, hover over the **<i class="fa fa-cloud" aria-hidden="true"></i> REMOTE** menu until a small {{% button icon="fas fa-plus" %}}{{% /button %}} button appears.
 
-<img src="/images/gk-hover-add-remote.png" />
+<img src="/images/edit-evo-5a.png" />
 
 This should open the **<i class="fa fa-cloud" aria-hidden="true"></i> Add Remote** Tab. Select the **`RSE-Sheffield/collaborative_github_exercise`** repository from the **GitHub Repo** dropdown menu and click the {{% button %}}**Add Remote**{{% /button %}}  button.
 
-<img src="/images/gk-add-remote.png" />
+<img src="/images/edit-evo-5b.png" />
 
 Once added, the RSE-Sheffield repository will be visible under the **<i class="fa fa-cloud" aria-hidden="true"></i> REMOTE** menu
 
-<img src="/images/gk-remote-added.png" />
+<img src="/images/edit-evo-5c.png" />
 
 
 ### Pull upstream changes
