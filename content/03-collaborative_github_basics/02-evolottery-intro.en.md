@@ -20,7 +20,7 @@ author) (2016) The shapes of bird beaks are highly controlled by nondietary fact
 
 - Each participant will **fork a GitHub repository**, and **contribute a file** required to simulate the *evolutionary trajectory of an imaginary species' body size*.
 
-- We'll use **GitHub to merge all contributions** and [**plot them together** at the end!](http://rse.shef.ac.uk/collaborative_github_exercise/plot_trait_evolution.html) 
+- We'll use **GitHub to merge all contributions** and [**plot them together** at the end!](https://r-rse.github.io/evolottery/plot_trait_evolution.html) 
 
 - We'll also **discover the skull and beak shapes** associated with each simulated species size.
 

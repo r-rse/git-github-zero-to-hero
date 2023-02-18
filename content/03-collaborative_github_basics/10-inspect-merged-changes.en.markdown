@@ -26,7 +26,7 @@ Once the analysis notebook (parametarised with each participants species) is run
 
 ### `plot_trait_evolution.html`
 
-<iframe src="https://rse.shef.ac.uk/collaborative_github_exercise/plot_trait_evolution.html" width="100%" height="400px"></iframe>
+<iframe src="https://r-rse.github.io/evolottery/plot_trait_evolution.html" width="100%" height="400px"></iframe>
 
 
 
