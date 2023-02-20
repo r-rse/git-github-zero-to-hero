@@ -37,7 +37,6 @@ To pull the upstream changes from the **`r-rse`** repository, **grab** the **`r-
 
 Once you drop it onto the <i class="fa fa-laptop" aria-hidden="true"></i> local `main` branch successfully, a pop up menu will appear. Select **Fast-forward main to r-rse/main**. That ensures that you **do not create a circular commit of your initial commit** to the upstream repo when you are merging it back into your <i class="fa fa-laptop" aria-hidden="true"></i> local repo. Find out more about [fast-forward git merging](https://ariya.io/2013/09/fast-forward-git-merge).
 
-<img src="/images/gk-fast-forward.png" />
 
 Once the merge is complete, your <i class="fa fa-laptop" aria-hidden="true"></i> local `main` will now be showing as synched with the **`r-rse`** remote and you will have copies of all the files contributed in your `params/` folder! :tada:
 
