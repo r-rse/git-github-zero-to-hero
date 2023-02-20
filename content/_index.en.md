@@ -1,8 +1,8 @@
 ---
-title: "Git & Github through GitKraken Client - From Zero to Hero! "
+title: "Version Control for Researchers "
 ---
 
-# Git & Github through GitKraken Client - From Zero to Hero! 
+# Version Control for Researchers 
 
 In this course you'll be learning version control and collaboration through Git, GitHub & GitKraken Client
 

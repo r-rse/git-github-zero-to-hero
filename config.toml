@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Git & Github through GitKraken Client - From Zero to Hero!"
-description = "Materials for R-RSE workshop on 'Git & Github through GitKraken Client - From Zero to Hero! '"
+title = "Version Control for Researchers"
+description = "Materials for R-RSE workshop on 'Version Control for Researchers'"
 pygmentsUseClasses=true
 enableEmoji = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "index\\.html", '\.knit\.md$', '\.utf8\.md$']
@@ -23,7 +23,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Git & Github through GitKraken Client - From Zero to Hero!"
+title = "Version Control for Researchers"
 weight = 1
 languageName = "English"
 
@@ -55,7 +55,7 @@ weight = 50
 
 [params]
   editURL = "https://github.com/r-rse/git-github-zero-to-hero/edit/master/content/"
-  description = "Git & Github through GitKraken Client - From Zero to Hero!"
+  description = "Version Control for Researchers"
   author = "Anna Krystalli, R-RSE"
   showVisitedLinks = true
   disableBreadcrumb = false
