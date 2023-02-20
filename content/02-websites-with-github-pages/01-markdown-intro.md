@@ -15,9 +15,9 @@ _Italic_ text: `_Italic_`
 
 ~~Strikethrough~~ text: `~~Strikethrough~~`
 
->Quoted text:
+> Quoted text:
 
-`>Quoted text:`
+`> Quoted text:`
 
 ## Headings
 
