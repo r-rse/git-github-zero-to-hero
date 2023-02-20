@@ -4,7 +4,7 @@ weight: 10
 ---
 
 
-### Inspect your changes in the [upstream repository](https://github.com/RSE-Sheffield/collaborative_GitHub_exercise) 
+### Inspect your changes in the [upstream repository](https://github.com/r-rse/evolottery) 
 
 You can now check the upstream repository to see **your merged changes**. The root of the repository indicates that the last commit was the merge of your pull request into the master branch:
 
